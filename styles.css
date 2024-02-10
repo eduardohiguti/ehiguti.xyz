@@ -1,0 +1,12 @@
+body {
+    margin: 3px;
+    background-color: rgb(51, 50, 50);
+    font-family: 'DejaVu Sands Mono', monospace;
+}
+
+
+.intro {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(226, 221, 221);
+}
