@@ -1,12 +1,50 @@
 body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
     margin: 3px;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(20,20,30);
     font-family: 'DejaVu Sands Mono', monospace;
+}
+
+header {
+    flex: 1 1 100vw;
+}
+
+main {
+    flex: 1 1 100vw;
+}
+
+footer {
+    text-align: center;
+    flex: 1 1 100vw;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100vw;
 }
 
 
 .intro {
     text-align: center;
-    font-size: 1.5rem;
-    color: rgb(226, 221, 221);
+    font-size: 20;
+    color: #cdd6f4;
+}
+
+.menu {
+    align-items: center;
+    text-align: center;
+}
+
+.projetos {
+    text-align: center;
+    color: #cdd6f4;
+}
+
+
+.footer {
+    text-align: center;
+    color: #f9e2af;
 }
