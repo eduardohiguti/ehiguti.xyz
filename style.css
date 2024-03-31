@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: flex;
+}
+
+a { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover {
+    color: #8aacce;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(237, 251, 255);
+}
+
+nav {
+    max-width: 70%;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    max-width: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: black;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #8aacce;
+    transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+    width: 70%;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(130deg, #8aacce 0%, #557ae0 99%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin: 30px 0px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #1f50d8;
+}
+
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+
+.social-item {
+    width: 1.6em;
+    display: inline-block;
+    margin-right: 30px;
+    filter: invert(74%) sepia(15%) saturate(691%) hue-rotate(169deg) brightness(88%) contrast(91%);
+}
+
+.social-item:hover {
+    filter: invert(28%) sepia(80%) saturate(4868%) hue-rotate(223deg) brightness(86%) contrast(97%);
+}
+
+.adjust {
+    font-size: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px;
+    line-height: 150%;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 2.5rem;
+    font-weight:900;
+}

@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt_br">
-
-<!-- ODEIO HTML AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
-
+<html lang="pt-BR">
 <head>
-    <title>Eduardo C. Higuti</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Eduardo C. Higuti</title>
 </head>
-
 <body>
-<!-- IT JUST WORKS!! -->
-    <header id="header">
-        <ul>
-            <li style="float:left">
-                <p class="intro">Eduardo C. Higuti</p>
-            </li>
-            <li>
-                <a href="https://github.com/eduardohiguti"> 
-                    <img src="assets/github.png" width="28">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/eduardo-higuti/">
-                    <img src="assets/linkedin.png" width="28">
-                </a>
-            </li>
-        </ul>
-    </header>
-    
-    <main>
-        <div class="projetos">
-            <h1>Projetinhos pai</h1>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="images/logo.png" width="40px">
+            </a>
         </div>
-    </main>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Sobre mim</a></li>
+            <li class="link"><a href="#">Projetos</a></li>
+            <li class="link"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <p>Olá, eu sou </p>
+            <h1>Eduardo C. Higuti</h1>
+            <p class="adjust">Web Developer</p>
+            <div class="resume">
+                <button class="btn">Download currículo</button>
+            </div>
+            <div class="social">
+                <a href="//github.com/eduardohiguti"><img class="social-item" src="images/github-mark.svg"></a>
+                <a href="//linkedin.com/in/eduardo-higuti"><img class="social-item" src="images/linkedin.svg"></a>
+            </div>
+        </div>
+    </header>
 
     <footer>
-            <p class="footer">
-                © Eduardo C. Higuti 2024 · 
-                <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-            </p>
-            <p class="footer">
-                <a href="https://github.com/eduardohiguti/ehiguti.xyz">GitHub Repository</a>
-            </p>
+        <p class="footer">
+            © Eduardo C. Higuti 2024 · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+        </p>
+        <p class="footer">
+            <a href="https://github.com/eduardohiguti/ehiguti.xyz">GitHub Repository</a>
+        </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
